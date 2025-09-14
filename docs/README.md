@@ -109,4 +109,8 @@ This site is deployed on GitHub Pages:
 For questions or feedback regarding this project:
 
 - **Email:** [natashahinga58@gmail.com](mailto:natashahinga58@gmail.com)
+<<<<<<< HEAD:docs/README.md
 - **GitHub:** [slate299/plp-webtechnologies-classroom-july2025](https://github.com/slate299/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl)
+=======
+
+>>>>>>> f5b6c303ede0eea835d3cd4d0ecfd45f9f632163:project/README.md
