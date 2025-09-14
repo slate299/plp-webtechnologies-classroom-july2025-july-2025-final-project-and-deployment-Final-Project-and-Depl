@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Bliss Staycations</title>
+    <!-- in <head> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">Bliss Staycations</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="menu-toggle">☰</div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero small-hero">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>📍 Address:</strong> Nairobi, Kenya</p>
+        <p><strong>📞 Phone:</strong> +254 700 123 456</p>
+        <p><strong>✉️ Email:</strong> hello@blissstaycations.com</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a> |
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a> |
+          <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.335530221291!2d36.82194631590868!3d-1.2920650999999897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10c7f6f0eebb%3A0x8c9d4aa1fbb6f8c0!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1692540323123!5m2!1sen!2ske"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h2>Send a Message</h2>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea
+          id="message"
+          placeholder="Your Message"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 StayBliss. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> | <a href="listings.html">Listings</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br />
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br />
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br />
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

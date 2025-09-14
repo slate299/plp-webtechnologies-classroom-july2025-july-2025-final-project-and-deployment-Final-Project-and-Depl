@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayBliss - Listings</title>
+    <!-- in <head> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">StayBliss</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listings.html" class="active">Listings</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="menu-toggle">☰</button>
+      </nav>
+    </header>
+
+    <!-- Listings Hero -->
+    <section class="hero small-hero">
+      <h1>Explore Our Stays</h1>
+      <p>
+        Browse our curated collection of cozy, stylish, and affordable
+        staycations.
+      </p>
+    </section>
+
+    <!-- Filter + Search -->
+    <section class="filters">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by name or location..."
+      />
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="city">City</button>
+        <button class="filter-btn" data-category="countryside">
+          Countryside
+        </button>
+        <button class="filter-btn" data-category="luxury">Luxury</button>
+      </div>
+      <select id="sortSelect">
+        <option value="default">Sort By</option>
+        <option value="low-high">Price: Low to High</option>
+        <option value="high-low">Price: High to Low</option>
+      </select>
+    </section>
+
+    <!-- Listings Grid -->
+    <section class="stay-listings">
+      <div id="stayGrid" class="stay-cards">
+        <!-- JS will inject stay cards here -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 StayBliss. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> | <a href="listings.html">Listings</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br />
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br />
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br />
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
