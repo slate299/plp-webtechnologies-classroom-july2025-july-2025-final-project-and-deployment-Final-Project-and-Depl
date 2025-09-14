@@ -110,6 +110,3 @@ For questions or feedback regarding this project:
 
 - **Email:** [natashahinga58@gmail.com](mailto:natashahinga58@gmail.com)
 - **GitHub:** [slate299/plp-webtechnologies-classroom-july2025](https://github.com/slate299/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl)
-
-```
-
