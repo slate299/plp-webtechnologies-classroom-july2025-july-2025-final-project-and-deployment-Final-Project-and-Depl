@@ -47,7 +47,7 @@ The website allows users to:
 
 ```
 
-project/
+docs/
 │
 ├─ index.html
 ├─ listings.html
