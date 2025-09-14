@@ -1,6 +1,6 @@
 # StayBliss - Discover Your Perfect Staycation
 
-🌐 **Live Site:** [https://slate299.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/](https://slate299.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+🌐 **Live Site:** [Click here to view the live site](https://slate299.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ## Overview
 
